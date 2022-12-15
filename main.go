@@ -1,9 +1,10 @@
-package golanglearn
+package main
 
 import (
 	"fmt"
 
 	lasagna "golanglearn/execism/lasagna"
+	"golanglearn/sololearn/saynumber"
 )
 
 func main() {
@@ -12,4 +13,10 @@ func main() {
 	fmt.Println("Lasagna has", layers, "layers and has been in the oven for", actual, "minutes.")
 	elapsed := lasagna.ElapsedTime(layers, actual)
 	fmt.Println("Total elapsed time:", elapsed, "minutes.")
+	var num1, num2, num3 int
+	fmt.Scan(&num1, &num2, &num3)
+	nums := [3]int{num1, num2, num3}
+	for i := range nums {
+		saynumber.Saynumber(nums[i])
+	}
 }
