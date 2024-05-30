@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	lasagna "golanglearn/execism/lasagna"
+	"golanglearn/execism/myday"
 	"golanglearn/sololearn/saynumber"
 )
 
@@ -19,4 +20,5 @@ func main() {
 	for i := range nums {
 		saynumber.Saynumber(nums[i])
 	}
+	myday.MyDay()
 }
