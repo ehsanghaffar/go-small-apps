@@ -9,3 +9,9 @@
 * Video:
 
 [Now is The Best Time to Learn WebAssembly](https://www.youtube.com/watch?v=v8-yeWXCsi4)
+
+> do not forget run the following command first
+
+```bash
+cp "$(go env GOROOT)/misc/wasm/wasm_exec.js" .
+```
