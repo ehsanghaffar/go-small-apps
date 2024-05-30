@@ -7,4 +7,4 @@ Small programs that I wrote while learning the Go programming language
 - Go WebAssembly
 - lasagna
 - saynumber
-- ...
+- myday
