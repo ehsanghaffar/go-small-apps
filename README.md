@@ -2,4 +2,9 @@
 
 Small programs that I wrote while learning the Go programming language
 
-## Apps list
+## Apps
+
+- Go WebAssembly
+- lasagna
+- saynumber
+- ...
